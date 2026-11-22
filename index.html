@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3b0a45">
+  <meta name="description" content="Aggrey Memorial A.M.E. Zion Senior High School — Semper Optimo Nitere. School information, programmes, announcements and contact details.">
+  <title>Aggrey Memorial SHS | School App</title>
+  <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/crest.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="app-header">
+    <div class="brand">
+      <img src="assets/crest.svg" alt="Aggrey Memorial school emblem" width="48" height="48">
+      <div><strong>Aggrey Memorial</strong><small>A.M.E. Zion Senior High School</small><span class="official-chip">SCHOOL INFORMATION APP</span></div>
+    </div>
+    <button id="installBtn" class="install-btn" hidden aria-label="Install school app">Install</button>
+    <button id="menuBtn" class="icon-btn" aria-expanded="false" aria-controls="drawer" aria-label="Open more pages">☰</button>
+  </header>
+
+
+  <main id="main" tabindex="-1">
+    <section class="page active" id="home" data-page="home" aria-labelledby="home-title">
+      <div class="hero-card">
+        <span class="eyebrow">🦅 BRIDGE CITY · EST. 1940</span>
+        <h1 id="home-title" tabindex="-1">Excellence in Education.<br><span>Leaders for Tomorrow.</span></h1>
+        <p class="motto">“Semper Optimo Nitere”<br><small>Always Strive for the Best</small></p>
+        <p>Welcome to Aggrey Memorial A.M.E. Zion Senior High School. Explore our school, programmes, community, and ways to connect.</p>
+        <div class="hero-actions">
+          <button class="primary-btn" data-go="admissions">Admission enquiries</button>
+          <button class="ghost-btn" data-go="about">Discover our story</button>
+        </div>
+      </div>
+      <div class="quick-grid" aria-label="Quick links">
+        <button class="quick-card" data-go="academics"><span>📚</span><b>Academics</b><small>Programmes</small></button>
+        <button class="quick-card" data-go="updates"><span>📣</span><b>News & Events</b><small>School updates</small></button>
+        <button class="quick-card" data-go="campus"><span>🏫</span><b>Campus Life</b><small>Student community</small></button>
+        <button class="quick-card" data-go="contact"><span>☎️</span><b>Contact Us</b><small>Get in touch</small></button>
+      </div>
+      <section class="content-card">
+        <span class="section-kicker">OUR IDENTITY</span>
+        <h2>Semper Optimo Nitere</h2>
+        <p>Always Strive for the Best. A tradition of learning, character, discipline, leadership and service.</p>
+        <div class="identity-pills"><span>Bridge City</span><span>Golden Eagle</span><span>Mauve & Yellow</span></div>
+      </section>
+    </section>
+
+
+    <section class="page" id="about" data-page="about" aria-labelledby="about-title" hidden>
+      <header class="page-heading"><span class="section-kicker">ABOUT THE SCHOOL</span><h1 id="about-title" tabindex="-1">Our Story</h1><p>Discover the history and values of Aggrey Memorial.</p></header>
+      <article class="content-card"><h2>A legacy of learning</h2><p>Founded in 1940, Aggrey Memorial A.M.E. Zion Senior High School is located at Moree Hill (Brafo Yaw), Cape Coast, Ghana.</p><p>The school’s name honours Dr. James Emman Kwegyir Aggrey, celebrated for his contribution to education. The school seeks to develop students academically and in character.</p></article>
+      <article class="content-card"><h2>Our motto</h2><p class="large-motto">Semper Optimo Nitere</p><p>Always Strive for the Best.</p></article>
+    </section>
+
+
+    <section class="page" id="academics" data-page="academics" aria-labelledby="academics-title" hidden>
+      <header class="page-heading"><span class="section-kicker">LEARNING & DEVELOPMENT</span><h1 id="academics-title" tabindex="-1">Academic Programmes</h1><p>Programme information is presented as a guide. Confirm current subject combinations with the school.</p></header>
+      <div class="programme-list">
+        <article class="programme"><span>🔬</span><div><h2>General Science</h2><p>Science-focused studies and pathways in scientific, health and engineering fields.</p></div></article>
+        <article class="programme"><span>📖</span><div><h2>General Arts</h2><p>Humanities and social science subjects supporting a wide range of future studies.</p></div></article>
+        <article class="programme"><span>💼</span><div><h2>Business</h2><p>Business, accounting, economics and commerce-related learning.</p></div></article>
+        <article class="programme"><span>🎨</span><div><h2>Visual Arts</h2><p>Creative, design and visual expression-related subjects.</p></div></article>
+        <article class="programme"><span>🍲</span><div><h2>Home Economics</h2><p>Applied learning around food, nutrition and home management.</p></div></article>
+        <article class="programme"><span>🌱</span><div><h2>Agricultural Science</h2><p>Agriculture, sustainability and related practical learning.</p></div></article>
+      </div>
+    </section>
+
+
+    <section class="page" id="admissions" data-page="admissions" aria-labelledby="admissions-title" hidden>
+      <header class="page-heading"><span class="section-kicker">JOIN BRIDGE CITY</span><h1 id="admissions-title" tabindex="-1">Admissions</h1><p>Have a question about admission or enrollment? Contact the school for current requirements, timelines and guidance.</p></header>
+      <article class="content-card"><h2>Admission enquiries</h2><p>Admission requirements and placement details may change. Please confirm the latest official information with the school office.</p><div class="stack-actions"><a class="primary-link" href="tel:+233559672060">Call the school</a><a class="secondary-link" href="https://wa.me/233559672060?text=Hello%20Aggrey%20Memorial%2C%20I%20would%20like%20to%20make%20an%20admission%20enquiry." target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a><a class="secondary-link" href="mailto:aggreymemamezionshs@ges.gov.gh?subject=Admission%20Enquiry">Email an enquiry</a></div></article>
+    </section>
+
+
+    <section class="page" id="updates" data-page="updates" aria-labelledby="updates-title" hidden>
+      <header class="page-heading"><span class="section-kicker">SCHOOL INFORMATION</span><h1 id="updates-title" tabindex="-1">News & Events</h1><p>Use this section for school announcements, dates, activities and notices.</p></header>
+      <article class="content-card notice-card"><span class="notice-icon">📢</span><h2>Announcements will appear here</h2><p>This starter app does not yet have a live news feed or admin publishing system. Connect an approved school news source or admin panel to publish updates.</p></article>
+      <article class="content-card"><h2>Suggested announcement categories</h2><div class="identity-pills"><span>School Notices</span><span>Events</span><span>Exam Information</span><span>Sports</span><span>Achievements</span></div></article>
+    </section>
+
+
+    <section class="page" id="campus" data-page="campus" aria-labelledby="campus-title" hidden>
+      <header class="page-heading"><span class="section-kicker">LIFE AT AGGREY</span><h1 id="campus-title" tabindex="-1">Campus Life</h1><p>Explore student life, activities, traditions and community at Bridge City.</p></header>
+      <article class="content-card"><h2>Beyond the classroom</h2><p>Campus Life can feature clubs, student leadership, sports, cultural events, boarding information and photos from approved school activities.</p><p>Gallery photos and activity details can be added once the school provides official content.</p></article>
+    </section>
+
+
+    <section class="page" id="alumni" data-page="alumni" aria-labelledby="alumni-title" hidden>
+      <header class="page-heading"><span class="section-kicker">OLD STUDENTS</span><h1 id="alumni-title" tabindex="-1">Alumni & AMOSA</h1><p>Celebrate the Aggrey Memorial old students community.</p></header>
+      <article class="content-card"><h2>Stay connected</h2><p>This section can grow into an alumni hub with reunions, alumni news, mentorship opportunities, chapter information and approved projects supporting the school.</p><a class="secondary-link" href="mailto:aggreymemamezionshs@ges.gov.gh?subject=Alumni%20enquiry">Contact the school about alumni information</a></article>
+    </section>
+
+
+    <section class="page" id="contact" data-page="contact" aria-labelledby="contact-title" hidden>
+      <header class="page-heading"><span class="section-kicker">WE’RE HERE TO HELP</span><h1 id="contact-title" tabindex="-1">Contact the School</h1><p>Reach Aggrey Memorial A.M.E. Zion Senior High School.</p></header>
+      <article class="content-card contact-list"><a href="tel:+233559672060"><span>📞</span><div><b>Phone</b><small>+233 55 967 2060</small></div></a><a href="tel:+233245633975"><span>☎️</span><div><b>Alternate phone</b><small>024 563 3975</small></div></a><a href="mailto:aggreymemamezionshs@ges.gov.gh"><span>✉️</span><div><b>Email</b><small>aggreymemamezionshs@ges.gov.gh</small></div></a><div class="contact-static"><span>📍</span><div><b>Location</b><small>Moree Hill (Brafo Yaw), Cape Coast, Ghana</small></div></div><a href="https://www.google.com/maps/search/?api=1&query=Aggrey+Memorial+A.M.E.+Zion+Senior+High+School+Cape+Coast+Ghana" target="_blank" rel="noopener noreferrer"><span>🗺️</span><div><b>Open location in Maps</b><small>Google Maps</small></div></a><a href="https://wa.me/233559672060" target="_blank" rel="noopener noreferrer"><span>💬</span><div><b>WhatsApp</b><small>Message the school contact</small></div></a></article>
+    </section>
+
+    <section class="page" id="student" data-page="student" aria-labelledby="student-title" hidden>
+      <header class="page-heading"><span class="section-kicker">STUDENT SERVICES</span><h1 id="student-title" tabindex="-1">Secure Student Portal</h1><p>Private student services. Sign in with an account and temporary password issued by the school administration.</p></header>
+      <article class="portal-card">
+        <div class="portal-brand"><img src="assets/crest.svg" alt="" width="52" height="52"><div><strong>Aggrey Memorial SHS</strong><small>Secure student access</small></div></div>
+        <p id="portalMessage" class="portal-message" role="status" aria-live="polite"></p><p class="portal-note">Student accounts and records are private. Never share your password or student login details.</p>
+        <form id="studentLoginForm" class="portal-form">
+          <label for="studentId">Student ID / Index Number</label><input id="studentId" name="username" autocomplete="username" placeholder="Enter your school ID" required maxlength="40">
+          <label for="studentPass">Password</label><input id="studentPass" name="password" type="password" autocomplete="current-password" placeholder="Your password" required minlength="1" maxlength="128">
+          <button class="primary-btn portal-submit" type="submit">Sign in securely</button>
+        </form>
+        <section id="studentDashboard" class="student-dashboard" hidden aria-live="polite">
+          <div class="dashboard-top"><div><span class="section-kicker">STUDENT DASHBOARD</span><h2>Welcome, <span id="studentName">Student</span></h2><p class="muted" id="studentProfileLine"></p></div><button id="studentLogout" class="secondary-link logout-btn" type="button">Log out</button></div>
+          <div class="student-info-grid"><div class="student-info-tile"><small>Student ID</small><b id="studentIdDisplay">—</b></div><div class="student-info-tile"><small>Programme / Year</small><b id="studentProgrammeDisplay">—</b></div></div>
+          <div id="passwordChangePanel" class="content-card" hidden><h3>Change temporary password</h3><p>Your account requires a password update before continuing.</p><form id="passwordChangeForm" class="portal-form"><label for="currentPassword">Temporary/current password</label><input id="currentPassword" type="password" autocomplete="current-password" required><label for="newPassword">New password</label><input id="newPassword" type="password" autocomplete="new-password" minlength="12" required><small>At least 12 characters, with uppercase, lowercase, and a number.</small><button class="primary-btn" type="submit">Update password</button></form></div>
+          <div class="portal-shortcuts"><article><span>📅</span><h3>Timetable</h3><div id="studentTimetable"><p>Loading timetable…</p></div></article><article><span>📝</span><h3>Results</h3><div id="studentResults"><p>Loading published results…</p></div></article><article><span>📣</span><h3>Student notices</h3><div id="studentAnnouncements"><p>Loading announcements…</p></div></article><article><span>📚</span><h3>Learning resources</h3><p>School-approved learning resources will be added by administrators.</p></article></div>
+        </section>
+      </article>
+    </section>
+  </main>
+
+
+  <nav class="bottom-nav" aria-label="App navigation">
+    <button class="nav-tab selected" data-go="home" aria-current="page"><span>⌂</span><small>Home</small></button>
+    <button class="nav-tab" data-go="academics"><span>▤</span><small>Academics</small></button>
+    <button class="nav-tab" data-go="updates"><span>◉</span><small>Updates</small></button>
+    <button class="nav-tab" data-go="contact"><span>✆</span><small>Contact</small></button>
+  </nav>
+
+  <div class="drawer-backdrop" id="backdrop" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="More pages" aria-hidden="true" inert>
+    <div class="drawer-head"><b>Explore Aggrey</b><button id="closeDrawer" class="icon-btn" aria-label="Close menu">✕</button></div>
+    <button data-go="about">Our Story <span>›</span></button><button data-go="admissions">Admissions <span>›</span></button><button data-go="campus">Campus Life <span>›</span></button><button data-go="alumni">Alumni & AMOSA <span>›</span></button><button data-go="student">Student Portal <span>→</span></button><button data-go="contact">Contact <span>›</span></button>
+    <p class="drawer-motto">Semper Optimo Nitere</p>
+  </aside>
+  <footer class="app-footer"><img src="assets/crest.svg" alt="" width="28" height="28"><p>Aggrey Memorial A.M.E. Zion SHS<br><small>Semper Optimo Nitere · Always Strive for the Best</small><br><small class="footer-note">Student portal access requires school-issued credentials and an active portal service.</small></p><span>© <span id="year"></span></span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

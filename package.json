@@ -1,0 +1,25 @@
+{
+  "name": "aggrey-memorial-student-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure student portal backend starter for Aggrey Memorial A.M.E. Zion SHS",
+  "scripts": {
+    "start": "node server.js",
+    "create-student": "node scripts/create-student.js",
+    "create-admin": "node scripts/create-admin.js",
+    "migrate": "node db/migrate.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-pg-simple": "^10.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1"
+  }
+}

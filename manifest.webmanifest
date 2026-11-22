@@ -1,0 +1,25 @@
+{
+  "name": "Aggrey Memorial A.M.E. Zion Senior High School",
+  "short_name": "Aggrey SHS",
+  "description": "School information app for Aggrey Memorial A.M.E. Zion Senior High School, Cape Coast, Ghana.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f6f9",
+  "theme_color": "#3b0a45",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
